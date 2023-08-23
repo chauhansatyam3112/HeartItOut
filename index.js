@@ -1,0 +1,1 @@
+<div id="rectangle" class="rectangle"></div>

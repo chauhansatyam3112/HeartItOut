@@ -1,0 +1,683 @@
+/* Apply basic styles to the rectangle */
+
+/* Apply basic styles to the rectangle */
+/* .rectangle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1152px;
+    height: 60px;
+    background: var(--white, #FFF);
+    box-shadow: 2px 4px 8px 0px rgba(0, 0, 0, 0.25);
+    padding: 0 513px 0 542px; 
+ }  */
+
+
+ /* Common styles for smaller screens */
+@media (max-width: 375px) {
+    .rectangle {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .logo {
+        width: 60px;
+        height: 27.95px;
+    }
+
+    .text-container {
+        top: 90px;
+        left: 20px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .radio-container {
+        width: auto;
+        top: 130px;
+        left: 20px;
+    }
+
+    .new-rectangle {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .radio-container-bottom {
+        width: auto;
+        top: 705px;
+        left: 20px;
+    }
+
+    .bootstrap-button {
+        top: 775px;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-left: 0;
+    }
+
+    .pricing-container {
+        display: block;
+        margin-top: 30px;
+    }
+}
+
+/* Responsive styles for footer */
+@media (max-width: 375px) {
+    .footer-image {
+        display: block; /* Show the footer image on smaller screens */
+    }
+    /* Adjust other footer styles as needed */
+}
+
+/* Responsive styles for carousel */
+@media (max-width: 375px) {
+    .carousel-item {
+        display: block; /* Show all carousel content on smaller screens */
+    }
+    /* Adjust other carousel styles as needed */
+}
+
+
+ 
+    /* Adjust the rectangle width and padding for smaller screens */
+    .rectangle {
+       
+
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1152px;
+    height: 60px;
+    background: var(--white, #FFF);
+    box-shadow: 2px 4px 8px 0px rgba(0, 0, 0, 0.25);
+    padding: 0 513px 0 542px;
+}
+
+/* Apply styles to the logo */
+.logo {
+    width: 97px;
+    height: 44.924px;
+    flex-shrink: 0;
+    background: url('logo final-35 2.png'), lightgray 0px -22.829px / 100% 215.92% no-repeat;
+
+}
+/* .logo {
+    width: 97px;
+    height: 44.924px;
+    flex-shrink: 0;
+    background: url('logo final-35 2.png') lightgray 0px -22.829px / 100% 215.92% no-repeat;
+} */
+
+.text-container {
+    /* width: 250px;
+    height: 24px;
+    top: 228.33740234375px;
+    left: 182.99267578125px;
+    font-family: Roboto;
+    font-size: 20.375px;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--3-dark, #455A64);
+    line-height: normal;
+    letter-spacing: 0em;
+    text-align: left;
+    position: absolute;
+    /* position: relative; Change to relative positioning 
+color: var(--3-dark, #455A64);
+font-family: Roboto; */
+
+width: 250px;
+    height: 24px;
+    top: 228.33740234375px;
+    left: 169.7491455078125px;
+    font-family: Roboto;
+    font-size: 20.375px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: absolute;
+    color: var(--3-dark, #455A64);
+
+}
+/* Apply styles to the radio container */
+.radio-container {
+    width: 146px;
+    height: 19px;
+    top: 268.067626953125px;
+    left: 211.5169677734375px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: absolute;
+    color: #01818C;
+}
+/* Apply styles to the radio container */
+.radio-container {
+    width: 146px;
+    height: 19px;
+    top: 268.067626953125px;
+    left: 211.5169677734375px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: absolute;
+    color: #01818C;
+}
+
+
+.radio-container {
+    width: 146px;
+    height: 19px;
+    top: 268.067626953125px;
+    left: 211.5169677734375px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: absolute;
+    color: #01818C;
+}
+
+/* Apply specific positioning to each radio container */
+.radio-container:nth-child(2) {
+    top: 301.685546875px;
+}
+
+.radio-container:nth-child(3) {
+    top: 335.303466796875px;
+}
+
+.radio-container:nth-child(4) {
+    top: 368.92138671875px;
+}
+
+
+
+/* Apply styles to the additional text */
+.additional-text-separate {
+    /* width: 250px;
+    height: 24px;
+    position: absolute;
+    top: calc(368.92138671875px + 53.54px); /* Adjust the top value 
+    left: 169.7491455078125px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--3-dark, #455A64); */
+    width: 250px;
+    height: 24px;
+    position: absolute;
+    top: calc(368.92138671875px + 53.54px); /* Adjust the top value */
+    left: 169.7491455078125px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--3-dark, #455A64);
+}
+
+.dropdown-container {
+    width: 862.861px;
+    height: 42.787px;
+    top: calc(476.9063720703125px + 10.64px); /* Adjust the top value */
+    left: 169.7491455078125px;
+    border-radius: 9.169px;
+    border: 1.019px solid #C6C6C6;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+/* Apply styles to the dropdown label */
+.dropdown-container label {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--3-dark, #455A64);
+    flex-shrink: 0;
+}
+
+/* Apply styles to the dropdown select element */
+.dropdown-container select {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: transparent;
+    outline: none;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--3-dark, #455A64);
+}
+
+.additional-text-bottom {
+    width: 250px;
+    height: 24px;
+    top: calc(598.1348876953125px + 78.44px); /* Adjust the top value */
+    left: 169.7491455078125px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--3-dark, #455A64);
+    position: absolute;
+    margin-top: 40px;
+}
+
+/* .radio-container-bottom:nth-child(2),
+.radio-container-bottom:nth-child(3),
+.radio-container-bottom:nth-child(4),
+.radio-container-bottom:nth-child(5) {
+    width: 146px;
+    height: 19px;
+    top: calc(598.1348876953125px + 78.44px + 15.73px + (14.62px * (4 - 1)));
+    left: 198.2734375px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: absolute;
+    color: #01818C;
+} */
+
+/* ... (other CSS rules) ... */
+
+/* Apply styles to the radio containers below the additional text */
+/* ... (other CSS rules) ... */
+
+/* Apply styles to the radio containers below the additional text */
+/* ... (other CSS rules) ... */
+
+/* Apply styles to the radio containers below the additional text */
+/* ... (other CSS rules) ... */
+
+/* Apply styles to the radio containers below the additional text */
+.radio-container-bottom {
+    width: 146px;
+    /* height: 19px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: relative;
+    color: #01818C;
+    top: calc(598.1348876953125px + 78.44px + 15.73px + 14.62px);
+    left: 198.2734375px; */
+    width: 146px;
+    height: 19px;
+    top: calc(705.1009521484375px + 10px); /* Adjust the top value */
+    left: 198.2734375px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: relative;
+    color: #01818C;
+    margin-bottom: 20px;
+}
+.radio-container-bottom:nth-child(1) {
+    margin-bottom: 20px; /* Adjust the margin value */
+}
+.radio-container-bottom:nth-child(2) {
+    margin-bottom: 20px; /* Adjust the margin value */
+}
+
+.radio-container-bottom:nth-child(3) {
+    margin-bottom: 20px; /* Adjust the margin value */
+}
+
+.radio-container-bottom:nth-child(4) {
+    margin-bottom: 20px; /* Adjust the margin value */
+}
+
+.bootstrap-button {
+    width: 138.42px;
+    height: 51.6px;
+    top: calc(705.1009521484375px + 36.01px); /* Adjust the top value */
+    left: calc(198.2734375px + 200.73px); /* Adjust the left value */
+    padding: 16.299625396728516px 38.71160888671875px 16.299625396728516px 38.71160888671875px;
+    border-radius: 4.074906349182129px;
+    gap: 10.187265396118164px;
+    box-shadow: 0px 2.0374531745910645px 3.0561792850494385px 0px #00000026;
+    display: inline-flex;
+    align-items: flex-start;
+    background: var(--3-green, #01818C);
+    box-shadow: 0px 2.0374531745910645px 3.0561792850494385px 0px rgba(0, 0, 0, 0.15);
+    border: none; /* Remove default Bootstrap button border */
+    color: white;
+    position: relative;
+   margin-left: 150px;
+}
+
+
+/* ... Your previous CSS code ... */
+
+/* Apply styles to the rectangle */
+/* Apply styles to the new rectangle */
+.new-rectangle {
+    width: 701.60693359375px;
+    height: 65px;
+    top: 1013px;
+    left: 225.1978759765625px;
+    border-radius: 6px;
+    background: #F4FBFF;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+/* Apply styles to the text inside the new rectangle */
+.new-rectangle p {
+    width: 275.356px;
+    color: var(--3-dark, #455A64);
+    font-family: Roboto;
+    font-size: 20.375px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: auto;
+    margin-left: 20px;
+    padding-left: 40px;
+}
+
+/* Apply styles to the vector inside the new rectangle */
+.new-rectangle svg {
+    width: 8px;
+    height: 17.623px;
+    flex-shrink: 0;
+    stroke-width: 2px;
+    stroke: #32959D;
+    filter: drop-shadow(0px 3px 4px rgba(0, 0, 0, 0.25));
+    margin-right: 15px;
+}
+.pricing-container {
+    display: flex;
+    justify-content: space-between;
+    width: 1162px;
+    height: 505px;
+    top: calc(1097px + 19px);
+    left: -5px;
+    background: #F7FBFD;
+    color: #F7FBFD;
+    position: relative;
+    margin-top: 19px;
+    color: #2B7397;
+
+    
+   
+}
+.pricing-container .card {
+    border: none;
+}
+
+.crossed {
+    text-decoration: line-through;
+}
+
+
+.pricing-table {
+    width: 33.33%; /* Each pricing table occupies 1/3 of the width */
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.pricing-rectangle {
+    width: 1162px;
+    height: 505px;
+    top: calc(1097px + 19px);
+    left: -5px;
+    background: #F7FBFD;
+    color: #F7FBFD;
+    position: relative;
+}
+
+.pricing-text {
+    width: 103.53350067138672px;
+    height: 25px;
+    top: 1253px;
+    left: 177.836181640625px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.pricing-subtext {
+    width: 220.28443908691406px;
+    height: 75px;
+    top: 1315px;
+    left: 119.4583740234375px;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.pricing-crossed-price {
+    width: 101.330810546875px;
+    height: 25px;
+    top: 1400px;
+    left: 178.938720703125px;
+    text-align: center;
+    text-decoration: line-through;
+}
+
+.pricing-actual-price {
+    width: 64.98385620117188px;
+    height: 25px;
+    top: 1432px;
+    left: 197.6629638671875px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+
+
+    .click-rectangle {
+    width: 100%;
+    height: 49px;
+    background: #2B7397;
+    color: white;
+    text-align: center;
+    line-height: 49px;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: 10px;
+    }
+
+    .click-color1 {
+        background: #2B7397;
+       
+        color: white;
+    }
+    
+    .click-color2 {
+        background: #32959D;
+        color: white;
+    }
+    
+    .click-color3 {
+        background: #9C7777;
+     
+        color: white;
+    }
+    .card a {
+        text-decoration: none; /* Remove underline */
+    }
+    
+    /* Override link styles for individual cards */
+    .card-footer a {
+        text-decoration: none; /* Remove underline */
+        color: inherit; /* Use the same color as the parent element */
+    }
+
+    /* Custom styles for the rectangular container */
+
+
+/* Add your existing styles here */
+
+.container-rectangular {
+    width: 1152px;
+    height: 642px;
+    flex-shrink: 0;
+    background: #EBF7FC;
+    position: absolute;
+    overflow: hidden;
+    margin-top: 1150px;
+    margin-left: 50;
+    margin-right: 50;
+
+
+    
+    left: 60px;
+    right: 100..667;
+    right: 40px;
+    margin-right: 40px;
+    margin-left: 0px;
+
+    
+
+
+    /* width: 100%;
+    max-width: 1152px;
+    height: 642px;
+    background: #EBF7FC;
+    overflow: hidden;
+    margin: 19px auto 0;
+   */
+   
+}
+.container {
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+.mt-4 {
+    margin-top: 4rem;
+}
+
+.container-mt4 + .container-rectangular {
+    margin-top: 19px;
+}
+
+.carousel-item {
+    margin-top: 70px;
+}
+
+.carousel-content {
+    width: 680px;
+    height: 350px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: var(--white, #FFF);
+    box-shadow: 2px 4px 8px 0px rgba(1, 129, 140, 0.10);
+    padding: 20px;
+    margin: auto;
+    text-align: justify;
+    position: relative;
+}
+
+.testimonial-text {
+    width: 554px;
+    height: 110px;
+    flex-shrink: 0;
+    color: var(--3-dark, #455A64);
+    text-align: justify;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.footer-button {
+    text-align: center;
+    margin-top: 38px;
+}
+
+/* Adjust the positioning of carousel controls */
+.carousel-control-prev,
+.carousel-control-next {
+    top: calc(50% - 20px); /* Adjust this value to vertically center the controls */
+    width: 40px; /* Adjust the width of the controls */
+}
+
+/* Customize the carousel indicators provided by Bootstrap */
+.carousel-indicators {
+    bottom: 10px; /* Adjust the vertical position of the indicators */
+}
+
+.carousel-indicators li {
+    background-color: #5B607C; /* Default indicator color */
+    border: none; /* Remove indicator border */
+    width: 12px; /* Adjust indicator width */
+    height: 12px; /* Adjust indicator height */
+    margin: 0 6px; /* Adjust indicator spacing */
+    cursor: pointer;
+    border-radius: 50%; /* Make the indicators circular */
+}
+
+.carousel-indicators .active {
+    background-color: #043953; /* Active indicator color */
+}
+
+
+.footer {
+    width: 1152px;
+    height: 407.121px;
+    flex-shrink: 0;
+    background: var(--dark-2, #043953);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   
+    top: 1793px;
+    left: 60px;
+    right: 100..667;
+    right: 40px;
+    margin-right: 40px;
+    margin-left: 0px;
+
+
+
+   
+  }
+
+  .footer img {
+    max-width: 100%;
+    max-height: 100%;
+  }
